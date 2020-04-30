@@ -15,10 +15,6 @@ body {
   margin:auto;
   font-weight: bold;
 }
-.login-bars a {
-  float: right;
-  /* margin-left: 100px; */
-}
 .login-bar p{
   line-height: 40px;
   float: left;
@@ -53,37 +49,47 @@ body {
   color: white;
   font-weight: bold;
 }
+.museum_img {
+  overflow:hidden;
+  height:350px;
+}
+.museum_img img{
+  position:relative;
+  bottom: 80px;
+}
 .top-left {
   position: absolute;
   top: 10px;
   left: 16px;
+  font-size: 20px;
 }
-.image{
+.images {
+  overflow:hidden;
+}
+.images img{
     float: left;
-    margin-left: 80px
+    margin-left: 30px;
+    height:180px;
+    width: 280px;
+    position: relative;
+    bottom: 35px;
 }
-.image p {
-  font-weight: bold;
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-
-.column {
-  float: left;
-  width: 20%;
-}
-.column img {
+.horizontal {
+  overflow: hidden;
+  height: 180px;
+  background-color: white;
   padding: 10px;
-}
-section.login {
-  background-color: black;
-}
-
-div.test {
   border-style: solid;
+  border-color: white;
+  border-top-width: 1px;
+  border-bottom-width: 1px
+}
+.text {
+  height: 20px;
+}
+.text p {
+  float: left;
+  padding-right: 150px;
+  font-weight:bold;
+  margin-left: 30px;
 }
