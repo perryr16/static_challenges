@@ -11,18 +11,25 @@ body {
   overflow: hidden;
   background-color: black;
   color: white;
-  padding: 10px 0px;
+  /* padding: 15px 0px; */
+  margin:auto;
   font-weight: bold;
 }
-.login-bar a {
+.login-bars a {
   float: right;
-  margin-left: 20px;
+  /* margin-left: 100px; */
+}
+.login-bar p{
+  line-height: 40px;
+  float: left;
+  vertical-align: middle;
 }
 .green-block {
+  float:right;
   text-decoration:none;
   background-color: green;
   color: white;
-  padding: 10px;
+  padding: 15px;
   font-size: 10px;
 }
 .menu {
